@@ -57,3 +57,24 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+comando para iniciar un proyecto de laravel :
+-composer create-project laravel/laravel sistema_ventas
+
+comando para guardar cambios en la bd:
+-php artisan migrate
+
+comando para poder abrir el projecto
+-php artisan serve 
+
+comando para poder crear una tabla nueva desde laravel con migraciones 
+-php artisan make:migration create_categorias_table
+
+comando para crear un controlador 
+-php artisan make:controller AuthController
+
+comando para crear un modelo 
+-php artisan make:model Producto 
+
+
